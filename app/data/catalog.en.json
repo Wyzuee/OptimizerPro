@@ -1,0 +1,301 @@
+{
+  "__comment": "English overlay for catalog.json",
+  "categories": [
+    "System Tools",
+    "Browsers",
+    "Developer",
+    "Runtimes",
+    "Media",
+    "Communication",
+    "Office",
+    "Archiving",
+    "Security",
+    "Gaming"
+  ],
+  "apps": {
+    "pcmanager": {
+      "category": "System Tools",
+      "name": "PC Manager",
+      "description": "Microsoft's system maintenance and cleanup tool."
+    },
+    "wintoys": {
+      "category": "System Tools",
+      "name": "Wintoys",
+      "description": "Manage Windows settings from one place."
+    },
+    "revouninstaller": {
+      "category": "System Tools",
+      "name": "Revo Uninstaller",
+      "description": "Uninstall programs together with their leftovers."
+    },
+    "everything": {
+      "category": "System Tools",
+      "description": "Instant file search engine."
+    },
+    "powertoys": {
+      "category": "System Tools",
+      "description": "Microsoft's advanced power-user utility set."
+    },
+    "wiztree": {
+      "category": "System Tools",
+      "description": "Fast disk usage analyzer with visualization."
+    },
+    "windirstat": {
+      "category": "System Tools",
+      "description": "Disk space statistics."
+    },
+    "teracopy": {
+      "category": "System Tools",
+      "description": "Fast and reliable file copying."
+    },
+    "sharex": {
+      "category": "System Tools",
+      "description": "Screenshot and screen recording tool."
+    },
+    "cpuz": {
+      "category": "System Tools",
+      "description": "Hardware information viewer."
+    },
+    "hwmonitor": {
+      "category": "System Tools",
+      "description": "Temperature and voltage monitoring."
+    },
+    "chrome": {
+      "category": "Browsers",
+      "description": "Google's fast browser."
+    },
+    "firefox": {
+      "category": "Browsers",
+      "description": "Open-source browser."
+    },
+    "brave": {
+      "category": "Browsers",
+      "description": "Privacy-focused browser with ad blocking."
+    },
+    "opera": {
+      "category": "Browsers",
+      "description": "Alternative browser."
+    },
+    "vivaldi": {
+      "category": "Browsers",
+      "description": "Highly customizable browser."
+    },
+    "edge": {
+      "category": "Browsers",
+      "description": "Browser bundled with Windows."
+    },
+    "vscode": {
+      "category": "Developer",
+      "description": "Popular code editor."
+    },
+    "cursor": {
+      "category": "Developer",
+      "description": "AI-powered code editor."
+    },
+    "git": {
+      "category": "Developer",
+      "description": "Version control system."
+    },
+    "github-desktop": {
+      "category": "Developer",
+      "description": "Desktop GUI for Git."
+    },
+    "python312": {
+      "category": "Developer",
+      "description": "Python programming language."
+    },
+    "nodejs": {
+      "category": "Developer",
+      "description": "JavaScript runtime."
+    },
+    "jdk21": {
+      "category": "Developer",
+      "description": "Java development kit."
+    },
+    "dotnet-sdk": {
+      "category": "Developer",
+      "description": ".NET application development kit."
+    },
+    "vs-buildtools": {
+      "category": "Developer",
+      "description": "C/C++ build tools (MSVC)."
+    },
+    "notepadpp": {
+      "category": "Developer",
+      "description": "Advanced text editor."
+    },
+    "sublime": {
+      "category": "Developer",
+      "description": "Fast text editor."
+    },
+    "putty": {
+      "category": "Developer",
+      "description": "SSH client."
+    },
+    "winscp": {
+      "category": "Developer",
+      "description": "SFTP/SCP client."
+    },
+    "filezilla": {
+      "category": "Developer",
+      "description": "FTP client."
+    },
+    "docker": {
+      "category": "Developer",
+      "description": "Container development platform."
+    },
+    "postman": {
+      "category": "Developer",
+      "description": "API testing tool."
+    },
+    "wireshark": {
+      "category": "Developer",
+      "description": "Network protocol analyzer."
+    },
+    "dotnet-runtime8": {
+      "category": "Runtimes",
+      "description": "Required by OFGB and many apps."
+    },
+    "vcredist": {
+      "category": "Runtimes",
+      "description": "Runtime for C++ applications."
+    },
+    "jre": {
+      "category": "Runtimes",
+      "description": "Runtime for Java applications."
+    },
+    "directx": {
+      "category": "Runtimes",
+      "description": "DirectX libraries for older games."
+    },
+    "vlc": {
+      "category": "Media",
+      "description": "Media player that handles every format."
+    },
+    "spotify": {
+      "category": "Media",
+      "description": "Music streaming service."
+    },
+    "obs": {
+      "category": "Media",
+      "description": "Screen recording and live streaming."
+    },
+    "audacity": {
+      "category": "Media",
+      "description": "Audio editing program."
+    },
+    "gimp": {
+      "category": "Media",
+      "description": "Open-source image editor."
+    },
+    "krita": {
+      "category": "Media",
+      "description": "Digital painting program."
+    },
+    "blender": {
+      "category": "Media",
+      "description": "3D modeling and animation."
+    },
+    "handbrake": {
+      "category": "Media",
+      "description": "Video converter."
+    },
+    "klite": {
+      "category": "Media",
+      "description": "Video codec pack."
+    },
+    "discord": {
+      "category": "Communication",
+      "description": "Voice and text chat."
+    },
+    "telegram": {
+      "category": "Communication",
+      "description": "Fast messaging app."
+    },
+    "whatsapp": {
+      "category": "Communication",
+      "description": "WhatsApp desktop."
+    },
+    "zoom": {
+      "category": "Communication",
+      "description": "Video conferencing."
+    },
+    "slack": {
+      "category": "Communication",
+      "description": "Team communication."
+    },
+    "teams": {
+      "category": "Communication",
+      "description": "Corporate meetings and chat."
+    },
+    "libreoffice": {
+      "category": "Office",
+      "description": "Free office suite."
+    },
+    "sumatrapdf": {
+      "category": "Office",
+      "description": "Lightweight PDF reader."
+    },
+    "foxitreader": {
+      "category": "Office",
+      "description": "PDF reader."
+    },
+    "acrobat": {
+      "category": "Office",
+      "description": "Adobe's PDF reader."
+    },
+    "7zip": {
+      "category": "Archiving",
+      "description": "File compression tool."
+    },
+    "winrar": {
+      "category": "Archiving",
+      "description": "RAR archive manager.",
+      "notes": "Trial version; a license is required."
+    },
+    "peazip": {
+      "category": "Archiving",
+      "description": "Open-source archive manager."
+    },
+    "rufus": {
+      "category": "Archiving",
+      "description": "Bootable USB creator."
+    },
+    "bitwarden": {
+      "category": "Security",
+      "description": "Open-source password manager."
+    },
+    "keepassxc": {
+      "category": "Security",
+      "description": "Local password vault."
+    },
+    "malwarebytes": {
+      "category": "Security",
+      "description": "Malware scanner."
+    },
+    "tailscale": {
+      "category": "Security",
+      "description": "WireGuard-based mesh VPN."
+    },
+    "wireguard": {
+      "category": "Security",
+      "description": "Fast VPN tunnel."
+    },
+    "steam": {
+      "category": "Gaming",
+      "description": "Game store."
+    },
+    "epic": {
+      "category": "Gaming",
+      "description": "Epic games store."
+    },
+    "eaapp": {
+      "category": "Gaming",
+      "description": "Electronic Arts game client."
+    },
+    "qbittorrent": {
+      "category": "Gaming",
+      "description": "Torrent client."
+    }
+  }
+}

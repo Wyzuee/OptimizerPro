@@ -1,0 +1,35 @@
+# Sanal ortam
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Derleme çıktıları
+dist/
+build/_pyi*/
+build/_debug/
+build/_verify/
+build/_tmp/
+build/_shots/
+build/_icons_svg/
+build/*.spec
+
+# Üçüncü parti araçlar (Release'e eklenmeli, repoya değil)
+/OFGB-Deps.exe
+/Optimizer.exe
+/OPT_Verify.exe
+
+# Editör
+.vscode/
+.idea/
+*.swp
+
+# Geçici
+*.log
+*.tmp
+Thumbs.db
+desktop.ini

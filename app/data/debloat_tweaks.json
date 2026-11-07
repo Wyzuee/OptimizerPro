@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "source": "Raphire/Win11Debloat CLI parametreleri",
+  "tweaks": [
+    {"id": "telemetry", "title": "Telemetri ve tanılama verisi", "description": "Tanılama verisi, etkinlik geçmişi ve uygulama başlatma takibini kapatır.", "param": "-DisableTelemetry", "category": "Gizlilik", "default": true},
+    {"id": "suggestions", "title": "Öneriler ve reklamlar", "description": "Windows genelindeki öneri, ipucu ve reklamları kapatır.", "param": "-DisableSuggestions", "category": "Gizlilik", "default": true},
+    {"id": "bing", "title": "Aramada Bing ve Copilot", "description": "Windows aramasındaki web sonuçlarını kapatır.", "param": "-DisableBing", "category": "Gizlilik", "default": true},
+    {"id": "location", "title": "Konum servisleri", "description": "Windows konum servislerini ve uygulama konum erişimini kapatır.", "param": "-DisableLocationServices", "category": "Gizlilik", "default": false},
+    {"id": "findmydevice", "title": "Cihazımı bul", "description": "Konum bilgisinin Microsoft'a gönderilmesini durdurur.", "param": "-DisableFindMyDevice", "category": "Gizlilik", "default": false},
+    {"id": "activity_history", "title": "Etkinlik geçmişi", "description": "Etkinlik geçmişi ve uygulama başlatma takibini kapatır.", "param": "-DisableTelemetry", "category": "Gizlilik", "default": false},
+
+    {"id": "copilot", "title": "Copilot", "description": "Microsoft Copilot'u kapatır ve kaldırır.", "param": "-DisableCopilot", "category": "Yapay Zekâ", "min_build": 22621, "default": true},
+    {"id": "recall", "title": "Windows Recall", "description": "Ekran geçmişini kaydeden Recall özelliğini kapatır.", "param": "-DisableRecall", "category": "Yapay Zekâ", "min_build": 22621, "default": true},
+    {"id": "clicktodo", "title": "Click to Do", "description": "Yapay zekâ destekli metin/görsel analizini kapatır.", "param": "-DisableClickToDo", "category": "Yapay Zekâ", "min_build": 22621, "default": true},
+    {"id": "ai_svc", "title": "AI servisi otomatik başlatma", "description": "WSAIFabricSvc servisinin otomatik başlamasını engeller.", "param": "-DisableAISvcAutoStart", "category": "Yapay Zekâ", "min_build": 22621, "default": true},
+    {"id": "edge_ai", "title": "Edge yapay zekâ özellikleri", "description": "Edge'deki AI kenar çubuğu ve Copilot özelliklerini kapatır.", "param": "-DisableEdgeAI", "category": "Yapay Zekâ", "min_build": 22621, "default": true},
+    {"id": "edge_ads", "title": "Edge reklamları ve MSN akışı", "description": "Edge'deki reklam, öneri ve haber akışını kapatır.", "param": "-DisableEdgeAds", "category": "Yapay Zekâ", "default": true},
+    {"id": "paint_ai", "title": "Paint yapay zekâ", "description": "Paint'teki görsel üretme araçlarını kapatır.", "param": "-DisablePaintAI", "category": "Yapay Zekâ", "min_build": 22621, "default": false},
+    {"id": "notepad_ai", "title": "Notepad yapay zekâ", "description": "Notepad'deki yazma önerilerini kapatır.", "param": "-DisableNotepadAI", "category": "Yapay Zekâ", "min_build": 22621, "default": false},
+    {"id": "chrome_ai", "title": "Chrome yapay zekâ", "description": "Chrome'daki Gemini ve AI özelliklerini kapatır.", "param": "-DisableChromeAI", "category": "Yapay Zekâ", "min_build": 22621, "default": false},
+    {"id": "brave_bloat", "title": "Brave gereksiz özellikleri", "description": "Brave'deki AI, kripto, haber ve VPN özelliklerini kapatır.", "param": "-DisableBraveBloat", "category": "Yapay Zekâ", "default": false},
+
+    {"id": "dark_mode", "title": "Koyu tema", "description": "Sistem ve uygulamalar için koyu temayı etkinleştirir.", "param": "-EnableDarkMode", "category": "Görünüm", "default": true},
+    {"id": "transparency", "title": "Saydamlık efektlerini kapat", "description": "Saydamlık efektlerini kapatır, eski donanımda hız kazandırır.", "param": "-DisableTransparency", "category": "Görünüm", "default": false},
+    {"id": "animations", "title": "Animasyonları kapat", "description": "Arayüz animasyonlarını kapatır, daha akıcı his verir.", "param": "-DisableAnimations", "category": "Görünüm", "default": false},
+    {"id": "context_menu", "title": "Klasik sağ tık menüsü", "description": "Windows 10 tarzı sağ tık menüsünü geri getirir.", "param": "-RevertContextMenu", "category": "Görünüm", "min_build": 22000, "default": true},
+    {"id": "mouse_accel", "title": "Fare ivmesini kapat", "description": "Fare hareketini daha tutarlı hale getirir.", "param": "-DisableMouseAcceleration", "category": "Görünüm", "default": false},
+    {"id": "sticky_keys", "title": "Yapışkan tuşlar kısayolu", "description": "Shift'e 5 kez basınca çıkan uyarıyı kapatır.", "param": "-DisableStickyKeys", "category": "Görünüm", "min_build": 26100, "default": false},
+
+    {"id": "file_ext", "title": "Dosya uzantılarını göster", "description": "Bilinen dosya türlerinin uzantısını gösterir.", "param": "-ShowKnownFileExt", "category": "Dosya Gezgini", "default": true},
+    {"id": "hidden_files", "title": "Gizli dosyaları göster", "description": "Gizli dosya ve klasörleri görünür yapar.", "param": "-ShowHiddenFolders", "category": "Dosya Gezgini", "default": false},
+    {"id": "hide_gallery", "title": "Galeri bölümünü gizle", "description": "Gezinme bölmesinden Galeri'yi kaldırır.", "param": "-HideGallery", "category": "Dosya Gezgini", "min_build": 22000, "default": true},
+    {"id": "hide_home", "title": "Giriş bölümünü gizle", "description": "Gezinme bölmesinden Giriş'i kaldırır.", "param": "-HideHome", "category": "Dosya Gezgini", "min_build": 22000, "default": false},
+    {"id": "hide_onedrive", "title": "OneDrive bölümünü gizle", "description": "Gezinme bölmesinden OneDrive'ı kaldırır.", "param": "-HideOnedrive", "category": "Dosya Gezgini", "default": false},
+    {"id": "explorer_thispc", "title": "Bu Bilgisayar'da aç", "description": "Dosya Gezgini 'Bu Bilgisayar' ile başlar.", "param": "-ExplorerToThisPC", "category": "Dosya Gezgini", "default": true},
+    {"id": "add_folders", "title": "Klasörleri Bu Bilgisayar'a ekle", "description": "Masaüstü, Belgeler, İndirilenler vb. ekler.", "param": "-AddFoldersToThisPC", "category": "Dosya Gezgini", "min_build": 22000, "default": false},
+
+    {"id": "taskbar_left", "title": "Görev çubuğunu sola al", "description": "Görev çubuğu düğmelerini sola hizalar.", "param": "-TaskbarAlignLeft", "category": "Görev Çubuğu", "min_build": 22000, "default": true},
+    {"id": "hide_taskview", "title": "Görev görünümü düğmesini gizle", "description": "Görev çubuğundaki Görev Görünümü düğmesini kaldırır.", "param": "-HideTaskview", "category": "Görev Çubuğu", "min_build": 22000, "default": true},
+    {"id": "hide_search", "title": "Arama kutusunu gizle", "description": "Görev çubuğundaki arama kutusunu kaldırır.", "param": "-HideSearchTb", "category": "Görev Çubuğu", "min_build": 22000, "default": false},
+    {"id": "widgets", "title": "Widget'ları kapat", "description": "Görev çubuğu ve kilit ekranı widget'larını kapatır.", "param": "-DisableWidgets", "category": "Görev Çubuğu", "default": true},
+    {"id": "end_task", "title": "Görev çubuğunda 'Görevi sonlandır'", "description": "Sağ tık menüsüne görev sonlandırma ekler.", "param": "-EnableEndTask", "category": "Görev Çubuğu", "min_build": 22631, "default": true},
+    {"id": "last_active_click", "title": "Son aktif pencereye geç", "description": "Görev çubuğu tıklamasında son aktif pencereye geçer.", "param": "-EnableLastActiveClick", "category": "Görev Çubuğu", "min_build": 22000, "default": false},
+    {"id": "disable_snap", "title": "Pencere yapıştırmayı kapat", "description": "Ekran kenarına sürükleyerek yapıştırmayı kapatır.", "param": "-DisableWindowSnapping", "category": "Görev Çubuğu", "default": false},
+
+    {"id": "start_recommended", "title": "Başlat'ta önerilenleri gizle", "description": "Başlat menüsündeki önerilen bölümünü kapatır.", "param": "-DisableStartRecommended", "category": "Başlat Menüsü", "min_build": 22621, "default": true},
+    {"id": "start_phone_link", "title": "Başlat'ta Telefon Bağlantısı", "description": "Başlat menüsündeki telefon entegrasyonunu kaldırır.", "param": "-DisableStartPhoneLink", "category": "Başlat Menüsü", "min_build": 22621, "default": true},
+    {"id": "clear_start", "title": "Sabitlenmiş uygulamaları temizle", "description": "Başlat menüsündeki sabitlenmiş uygulamaları kaldırır.", "param": "-ClearStart", "category": "Başlat Menüsü", "min_build": 22621, "default": false, "risk": "medium"},
+
+    {"id": "delivery_optimization", "title": "Teslim İyileştirme paylaşımı", "description": "Güncellemelerin diğer bilgisayarlarla paylaşımını kapatır.", "param": "-DisableDeliveryOptimization", "category": "Windows Update", "default": true},
+    {"id": "driver_updates", "title": "Sürücü güncellemelerini kapat", "description": "Windows Update üzerinden sürücü güncellemesini engeller.", "param": "-DisableDriverUpdates", "category": "Windows Update", "default": false},
+    {"id": "prevent_reboot", "title": "Otomatik yeniden başlatmayı engelle", "description": "Oturum açıkken güncelleme sonrası otomatik yeniden başlatmayı engeller.", "param": "-PreventUpdateAutoReboot", "category": "Windows Update", "default": true},
+    {"id": "update_asap", "title": "Güncellemeleri hemen alma", "description": "Yeni özellik güncellemelerini öne çekmez.", "param": "-DisableUpdateASAP", "category": "Windows Update", "default": true},
+    {"id": "storage_sense", "title": "Depolama Duyarlılığı'nı kapat", "description": "Otomatik disk temizliğini devre dışı bırakır.", "param": "-DisableStorageSense", "category": "Windows Update", "min_build": 22000, "default": false},
+    {"id": "fast_startup", "title": "Hızlı başlatmayı kapat", "description": "Tam kapanış sağlar, bazı sorunları çözer.", "param": "-DisableFastStartup", "category": "Windows Update", "default": false},
+
+    {"id": "gamebar", "title": "Xbox Game Bar entegrasyonu", "description": "Oyun çubuğu entegrasyonunu ve kayıt özelliklerini kapatır.", "param": "-DisableGameBarIntegration", "category": "Oyun", "default": true},
+    {"id": "dvr", "title": "Oyun kaydı (DVR)", "description": "Arka plan oyun kaydını kapatır.", "param": "-DisableDVR", "category": "Oyun", "default": true},
+    {"id": "notifications", "title": "Windows bildirimleri", "description": "Sistem ve uygulama bildirimlerini kapatır.", "param": "-DisableNotifications", "category": "Sistem", "default": false},
+    {"id": "settings_home", "title": "Ayarlar ana sayfasını kaldır", "description": "Ayarlar uygulamasındaki ana sayfayı gizler.", "param": "-DisableSettingsHome", "category": "Sistem", "min_build": 22000, "default": false},
+    {"id": "settings_ads", "title": "Ayarlar'da 365 reklamları", "description": "Ayarlar ana sayfasındaki Microsoft 365 reklamlarını kapatır.", "param": "-DisableSettings365Ads", "category": "Sistem", "min_build": 22000, "default": true},
+    {"id": "store_suggestions", "title": "Mağaza arama önerileri", "description": "Aramada Mağaza uygulama önerilerini kapatır.", "param": "-DisableStoreSearchSuggestions", "category": "Sistem", "min_build": 22621, "default": true},
+    {"id": "bitlocker", "title": "BitLocker otomatik şifreleme", "description": "Cihazın otomatik şifrelenmesini engeller.", "param": "-DisableBitlockerAutoEncryption", "category": "Sistem", "min_build": 22000, "default": false, "risk": "medium"},
+    {"id": "standby_net", "title": "Modern beklemede ağ bağlantısı", "description": "Uyku modunda ağ bağlantısını kapatır, pil tasarrufu sağlar.", "param": "-DisableModernStandbyNetworking", "category": "Sistem", "min_build": 22000, "default": false},
+    {"id": "wsl", "title": "Linux Alt Sistemi (WSL)", "description": "WSL özelliğini etkinleştirir.", "param": "-EnableWindowsSubsystemForLinux", "category": "Sistem", "min_build": 22000, "default": false}
+  ]
+}

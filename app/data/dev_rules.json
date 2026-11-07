@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "note": "Dil seçildiğinde önerilen programlar ve VS Code eklentileri otomatik işaretlenir.",
+  "languages": [
+    {
+      "id": "python",
+      "title": "Python",
+      "description": "Betik, veri bilimi ve otomasyon. VS Code + Python eklentisi otomatik kurulur.",
+      "icon": "🐍",
+      "apps": ["python312"],
+      "extensions": ["ms-python.python", "ms-python.vscode-pylance", "ms-python.debugpy"],
+      "post": ["python -m pip install --upgrade pip"],
+      "notes": "pip ve venv Python ile birlikte gelir."
+    },
+    {
+      "id": "cpp",
+      "title": "C / C++",
+      "description": "MSVC derleyici zinciri ve C/C++ eklentileri.",
+      "icon": "⚙",
+      "apps": ["vs-buildtools"],
+      "extensions": ["ms-vscode.cpptools", "ms-vscode.cpptools-extension-pack", "ms-vscode.cmake-tools"],
+      "post": [],
+      "notes": "Build Tools kurulumu birkaç GB yer kaplar."
+    },
+    {
+      "id": "node",
+      "title": "JavaScript / TypeScript",
+      "description": "Node.js LTS + web geliştirme eklentileri.",
+      "icon": "🟨",
+      "apps": ["nodejs"],
+      "extensions": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode", "bradlc.vscode-tailwindcss"],
+      "post": ["npm install -g pnpm"],
+      "notes": "npm Node.js ile birlikte gelir."
+    },
+    {
+      "id": "java",
+      "title": "Java",
+      "description": "OpenJDK 21 + Java eklenti paketi.",
+      "icon": "☕",
+      "apps": ["jdk21"],
+      "extensions": ["vscjava.vscode-java-pack", "redhat.java"],
+      "post": [],
+      "notes": "JAVA_HOME otomatik ayarlanır (kurulum sonrası yeni terminal gerekir)."
+    },
+    {
+      "id": "dotnet",
+      "title": "C# / .NET",
+      "description": ".NET SDK 8 + C# Dev Kit.",
+      "icon": "🟦",
+      "apps": ["dotnet-sdk"],
+      "extensions": ["ms-dotnettools.csharp", "ms-dotnettools.csdevkit"],
+      "post": ["dotnet --version"],
+      "notes": "Yeni terminal açtığınızda 'dotnet' komutu hazır olur."
+    },
+    {
+      "id": "web",
+      "title": "Web (HTML/CSS)",
+      "description": "Canlı önizleme ve HTML/CSS yardımcıları.",
+      "icon": "🌐",
+      "apps": [],
+      "extensions": ["ritwickdey.liveserver", "formulahendry.auto-rename-tag", "ecmel.vscode-html-css"],
+      "post": [],
+      "notes": "VS Code ve tarayıcı yeterli."
+    },
+    {
+      "id": "git",
+      "title": "Git / Sürüm Kontrolü",
+      "description": "Git + GitHub Pull Requests eklentileri.",
+      "icon": "🔀",
+      "apps": ["git"],
+      "extensions": ["eamodio.gitlens", "github.vscode-pull-request-github"],
+      "post": [],
+      "notes": ""
+    },
+    {
+      "id": "data",
+      "title": "Veri Bilimi",
+      "description": "Python + Jupyter uzantıları.",
+      "icon": "📊",
+      "apps": ["python312"],
+      "extensions": ["ms-toolsai.jupyter", "ms-python.python", "ms-python.vscode-pylance"],
+      "post": ["python -m pip install --upgrade pip"],
+      "notes": "pandas/numpy gibi paketler ayrıca kurulmalıdır."
+    }
+  ]
+}

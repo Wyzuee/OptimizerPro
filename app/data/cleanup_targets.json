@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "targets": [
+    {
+      "id": "user_temp",
+      "name": "Kullanıcı geçici dosyaları",
+      "group": "Geçici Dosyalar",
+      "description": "%TEMP% klasöründeki geçici dosyalar. Uygulamalar çalışırken bazıları kilitli olabilir.",
+      "risk": "low",
+      "paths": ["%TEMP%\\*"],
+      "kind": "files"
+    },
+    {
+      "id": "windows_temp",
+      "name": "Windows geçici dosyaları",
+      "group": "Geçici Dosyalar",
+      "description": "C:\\Windows\\Temp içeriği.",
+      "risk": "low",
+      "paths": ["C:\\Windows\\Temp\\*"],
+      "kind": "files",
+      "admin": true
+    },
+    {
+      "id": "prefetch",
+      "name": "Prefetch önbelleği",
+      "group": "Geçici Dosyalar",
+      "description": "Windows yeniden oluşturur; yer kazandırır, kalıcı performans etkisi yoktur.",
+      "risk": "low",
+      "paths": ["C:\\Windows\\Prefetch\\*"],
+      "kind": "files",
+      "admin": true
+    },
+    {
+      "id": "thumbcache",
+      "name": "Küçük resim önbelleği",
+      "group": "Geçici Dosyalar",
+      "description": "Dosya Gezgini küçük resim veritabanları.",
+      "risk": "low",
+      "paths": ["%LOCALAPPDATA%\\Microsoft\\Windows\\Explorer\\thumbcache_*.db"],
+      "kind": "files"
+    },
+    {
+      "id": "crashdumps",
+      "name": "Çökme dökümleri",
+      "group": "Geçici Dosyalar",
+      "description": "CrashDumps klasöründeki hata dökümleri.",
+      "risk": "low",
+      "paths": ["%LOCALAPPDATA%\\CrashDumps\\*"],
+      "kind": "files"
+    },
+    {
+      "id": "gpu_cache",
+      "name": "GPU gölgelendirici önbellekleri",
+      "group": "Geçici Dosyalar",
+      "description": "NVIDIA DXCache ve AMD DxCache klasörleri.",
+      "risk": "low",
+      "paths": ["%LOCALAPPDATA%\\NVIDIA\\DXCache\\*", "%LOCALAPPDATA%\\AMD\\DxCache\\*"],
+      "kind": "files"
+    },
+    {
+      "id": "windows_update_cache",
+      "name": "Windows Update indirme önbelleği",
+      "group": "Windows Update",
+      "description": "SoftwareDistribution\\Download içeriği. Servisler geçici olarak durdurulur.",
+      "risk": "medium",
+      "paths": ["C:\\Windows\\SoftwareDistribution\\Download\\*"],
+      "kind": "service_cache",
+      "admin": true,
+      "warning": "İndirilmiş ama kurulmamış güncellemeler silinir; yeniden indirilir."
+    },
+    {
+      "id": "delivery_optimization",
+      "name": "Teslim İyileştirme önbelleği",
+      "group": "Windows Update",
+      "description": "Diğer bilgisayarlarla paylaşılan güncelleme parçaları.",
+      "risk": "low",
+      "paths": ["C:\\Windows\\ServiceProfiles\\NetworkService\\AppData\\Local\\Microsoft\\Windows\\DeliveryOptimization\\Cache\\*"],
+      "kind": "files",
+      "admin": true
+    },
+    {
+      "id": "old_logs",
+      "name": "Eski kurulum ve güncelleme günlükleri",
+      "group": "Windows Update",
+      "description": "CBS, DISM ve Windows Update günlük dosyaları.",
+      "risk": "low",
+      "paths": [
+        "C:\\Windows\\Logs\\CBS\\*.log",
+        "C:\\Windows\\Logs\\DISM\\*.log",
+        "C:\\Windows\\Logs\\WindowsUpdate\\*.etl"
+      ],
+      "kind": "files",
+      "admin": true
+    },
+    {
+      "id": "recycle_bin",
+      "name": "Geri Dönüşüm Kutusu",
+      "group": "Çöp Kutusu",
+      "description": "Silinen dosyaların kalıcı olarak boşaltılması.",
+      "risk": "medium",
+      "paths": [],
+      "kind": "recycle",
+      "warning": "Geri dönüşüm kutusundaki dosyalar kurtarılamaz."
+    },
+    {
+      "id": "windows_old",
+      "name": "Windows.old (önceki sürüm)",
+      "group": "Sistem Bileşenleri",
+      "description": "Yükseltmeden kalan önceki Windows kurulumu. Geri dönüş imkânı kalmaz.",
+      "risk": "high",
+      "paths": ["C:\\Windows.old\\*"],
+      "kind": "files",
+      "admin": true,
+      "warning": "Önceki Windows sürümüne geri dönüş yapılamaz. Genellikle 10-30 GB kazandırır."
+    },
+    {
+      "id": "dism_cleanup",
+      "name": "WinSxS bileşen temizliği (DISM)",
+      "group": "Sistem Bileşenleri",
+      "description": "Kullanılmayan Windows bileşenlerini temizler. Uzun sürebilir.",
+      "risk": "medium",
+      "paths": [],
+      "kind": "dism",
+      "admin": true,
+      "warning": "İşlem 10-40 dakika sürebilir. Güncelleme geri alınamaz hale gelir."
+    }
+  ]
+}

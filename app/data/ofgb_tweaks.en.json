@@ -1,0 +1,65 @@
+{
+  "__comment": "English overlay for ofgb_tweaks.json",
+  "toggles": {
+    "sync_provider": {
+      "title": "File Explorer sync notifications",
+      "description": "Turns off promotional notifications from providers like OneDrive in File Explorer.",
+      "category": "File Explorer"
+    },
+    "lockscreen_tips": {
+      "title": "Lock screen tips and fun facts",
+      "description": "Turns off suggestions, tips and promotions shown on the lock screen.",
+      "category": "Lock Screen"
+    },
+    "settings_suggestions": {
+      "title": "Suggested content in Settings",
+      "description": "Turns off suggestion cards on the Settings home page.",
+      "category": "Settings"
+    },
+    "windows_tips": {
+      "title": "Windows usage tips",
+      "description": "Turns off suggestions and tips shown while using Windows.",
+      "category": "General"
+    },
+    "scoobe": {
+      "title": "Setup completion suggestions",
+      "description": "Turns off 'Get the most out of your device' suggestions.",
+      "category": "General"
+    },
+    "welcome_experience": {
+      "title": "Post-update welcome experience",
+      "description": "Turns off the 'what's new' screen shown after updates.",
+      "category": "General"
+    },
+    "advertising_id": {
+      "title": "Advertising ID",
+      "description": "Prevents apps from using your advertising ID for personalized ads.",
+      "category": "Privacy"
+    },
+    "tailored_experiences": {
+      "title": "Tailored experiences",
+      "description": "Turns off suggestions personalized from diagnostic data.",
+      "category": "Privacy"
+    },
+    "start_recommendations": {
+      "title": "Start menu recommendations",
+      "description": "Turns off 'recommended' app and tip cards in the Start menu.",
+      "category": "Start Menu"
+    },
+    "smart_optout": {
+      "title": "Unused app notifications",
+      "description": "Turns off 'you haven't opened these apps in a while' style suggestions.",
+      "category": "Notifications"
+    },
+    "bing_search": {
+      "title": "Bing results in Search",
+      "description": "Turns off web/Bing results in Windows Search (policy key).",
+      "category": "Search"
+    },
+    "edge_widget": {
+      "title": "Edge desktop search widget",
+      "description": "Turns off the desktop search widget opened by Edge (policy key).",
+      "category": "Edge"
+    }
+  }
+}

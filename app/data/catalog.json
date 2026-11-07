@@ -1,0 +1,795 @@
+{
+  "version": 1,
+  "categories": [
+    "Sistem Araçları",
+    "Tarayıcı",
+    "Geliştirici",
+    "Çalışma Zamanı",
+    "Medya",
+    "İletişim",
+    "Ofis",
+    "Arşivleme",
+    "Güvenlik",
+    "Oyun"
+  ],
+  "apps": [
+    {
+      "id": "pcmanager",
+      "name": "PC Manager",
+      "description": "Microsoft'un sistem bakım ve temizlik aracı.",
+      "category": "Sistem Araçları",
+      "winget": "9PM860492SZD",
+      "detect": ["PC Manager", "Microsoft PC Manager"],
+      "size_mb": 60,
+      "tags": ["temizlik", "bakım", "microsoft"]
+    },
+    {
+      "id": "wintoys",
+      "name": "Wintoys",
+      "description": "Windows ayarlarını tek yerden yönetme aracı.",
+      "category": "Sistem Araçları",
+      "winget": "9P8LTPGCBZXO",
+      "detect": ["Wintoys"],
+      "size_mb": 40,
+      "tags": ["ayar", "optimizasyon"]
+    },
+    {
+      "id": "revouninstaller",
+      "name": "Revo Uninstaller",
+      "description": "Programları kalıntılarıyla birlikte kaldırma aracı.",
+      "category": "Sistem Araçları",
+      "winget": "RevoUninstaller.RevoUninstaller",
+      "ninite": "revo",
+      "direct": {
+        "url": "https://www.revouninstaller.com/download-freeware/revouninstaller.exe",
+        "args": "/S"
+      },
+      "detect": ["Revo Uninstaller"],
+      "size_mb": 20,
+      "tags": ["kaldırma", "uninstall", "temizlik"]
+    },
+    {
+      "id": "everything",
+      "name": "Everything",
+      "description": "Anında dosya arama motoru.",
+      "category": "Sistem Araçları",
+      "winget": "voidtools.Everything",
+      "ninite": "everything",
+      "detect": ["Everything"],
+      "size_mb": 3,
+      "tags": ["arama", "dosya"]
+    },
+    {
+      "id": "powertoys",
+      "name": "PowerToys",
+      "description": "Microsoft'un gelişmiş kullanıcı araçları seti.",
+      "category": "Sistem Araçları",
+      "winget": "Microsoft.PowerToys",
+      "ninite": "powertoys",
+      "detect": ["PowerToys"],
+      "size_mb": 250,
+      "tags": ["microsoft", "araç"]
+    },
+    {
+      "id": "wiztree",
+      "name": "WizTree",
+      "description": "Disk kullanımını görselleştiren hızlı analiz aracı.",
+      "category": "Sistem Araçları",
+      "winget": "AntibodySoftware.WizTree",
+      "ninite": "wiztree",
+      "detect": ["WizTree"],
+      "size_mb": 8,
+      "tags": ["disk", "analiz"]
+    },
+    {
+      "id": "windirstat",
+      "name": "WinDirStat",
+      "description": "Disk alanı istatistikleri.",
+      "category": "Sistem Araçları",
+      "winget": "WinDirStat.WinDirStat",
+      "ninite": "windirstat",
+      "detect": ["WinDirStat"],
+      "size_mb": 5,
+      "tags": ["disk"]
+    },
+    {
+      "id": "teracopy",
+      "name": "TeraCopy",
+      "description": "Hızlı ve güvenilir dosya kopyalama.",
+      "category": "Sistem Araçları",
+      "winget": "CodeSector.TeraCopy",
+      "ninite": "teracopy",
+      "detect": ["TeraCopy"],
+      "size_mb": 10,
+      "tags": ["kopyalama"]
+    },
+    {
+      "id": "sharex",
+      "name": "ShareX",
+      "description": "Ekran görüntüsü ve kayıt aracı.",
+      "category": "Sistem Araçları",
+      "winget": "ShareX.ShareX",
+      "ninite": "sharex",
+      "detect": ["ShareX"],
+      "size_mb": 30,
+      "tags": ["ekran", "kayıt"]
+    },
+    {
+      "id": "cpuz",
+      "name": "CPU-Z",
+      "description": "Donanım bilgisi görüntüleme.",
+      "category": "Sistem Araçları",
+      "winget": "CPUID.CPU-Z",
+      "detect": ["CPU-Z"],
+      "size_mb": 3,
+      "tags": ["donanım"]
+    },
+    {
+      "id": "hwmonitor",
+      "name": "HWMonitor",
+      "description": "Sıcaklık ve voltaj izleme.",
+      "category": "Sistem Araçları",
+      "winget": "CPUID.HWMonitor",
+      "detect": ["HWMonitor"],
+      "size_mb": 3,
+      "tags": ["sıcaklık", "donanım"]
+    },
+
+    {
+      "id": "chrome",
+      "name": "Google Chrome",
+      "description": "Google'ın hızlı tarayıcısı.",
+      "category": "Tarayıcı",
+      "winget": "Google.Chrome",
+      "ninite": "chrome",
+      "detect": ["Google Chrome"],
+      "size_mb": 120,
+      "tags": ["tarayıcı", "google"]
+    },
+    {
+      "id": "firefox",
+      "name": "Mozilla Firefox",
+      "description": "Açık kaynak tarayıcı.",
+      "category": "Tarayıcı",
+      "winget": "Mozilla.Firefox",
+      "ninite": "firefox",
+      "detect": ["Mozilla Firefox"],
+      "size_mb": 90,
+      "tags": ["tarayıcı", "mozilla"]
+    },
+    {
+      "id": "brave",
+      "name": "Brave",
+      "description": "Reklam engelleyici odaklı tarayıcı.",
+      "category": "Tarayıcı",
+      "winget": "Brave.Brave",
+      "ninite": "brave",
+      "detect": ["Brave"],
+      "size_mb": 150,
+      "tags": ["tarayıcı", "gizlilik"]
+    },
+    {
+      "id": "opera",
+      "name": "Opera",
+      "description": "Alternatif tarayıcı.",
+      "category": "Tarayıcı",
+      "winget": "Opera.Opera",
+      "ninite": "opera",
+      "detect": ["Opera"],
+      "size_mb": 120,
+      "tags": ["tarayıcı"]
+    },
+    {
+      "id": "vivaldi",
+      "name": "Vivaldi",
+      "description": "Özelleştirilebilir tarayıcı.",
+      "category": "Tarayıcı",
+      "winget": "VivaldiTechnologies.Vivaldi",
+      "ninite": "vivaldi",
+      "detect": ["Vivaldi"],
+      "size_mb": 130,
+      "tags": ["tarayıcı"]
+    },
+    {
+      "id": "edge",
+      "name": "Microsoft Edge",
+      "description": "Windows ile gelen tarayıcı.",
+      "category": "Tarayıcı",
+      "winget": "Microsoft.Edge",
+      "ninite": "edge",
+      "detect": ["Microsoft Edge"],
+      "size_mb": 180,
+      "tags": ["tarayıcı", "microsoft"]
+    },
+
+    {
+      "id": "vscode",
+      "name": "Visual Studio Code",
+      "description": "Popüler kod editörü.",
+      "category": "Geliştirici",
+      "winget": "Microsoft.VisualStudioCode",
+      "ninite": "vscode",
+      "detect": ["Microsoft Visual Studio Code", "Visual Studio Code"],
+      "size_mb": 100,
+      "tags": ["kod", "editör", "microsoft"]
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "description": "Yapay zekâ destekli kod editörü.",
+      "category": "Geliştirici",
+      "winget": "Anysphere.Cursor",
+      "ninite": "cursor",
+      "detect": ["Cursor"],
+      "size_mb": 200,
+      "tags": ["kod", "ai"]
+    },
+    {
+      "id": "git",
+      "name": "Git",
+      "description": "Sürüm kontrol sistemi.",
+      "category": "Geliştirici",
+      "winget": "Git.Git",
+      "ninite": "git",
+      "detect": ["Git"],
+      "size_mb": 60,
+      "tags": ["git", "sürüm"]
+    },
+    {
+      "id": "github-desktop",
+      "name": "GitHub Desktop",
+      "description": "Git için masaüstü arayüzü.",
+      "category": "Geliştirici",
+      "winget": "GitHub.GitHubDesktop",
+      "ninite": "github",
+      "detect": ["GitHub Desktop"],
+      "size_mb": 130,
+      "tags": ["git", "github"]
+    },
+    {
+      "id": "python312",
+      "name": "Python 3.12",
+      "description": "Python programlama dili.",
+      "category": "Geliştirici",
+      "winget": "Python.Python.3.12",
+      "ninite": "python3",
+      "detect": ["Python 3.12", "Python 3"],
+      "size_mb": 100,
+      "tags": ["python", "dil"]
+    },
+    {
+      "id": "nodejs",
+      "name": "Node.js 22 LTS",
+      "description": "JavaScript çalışma zamanı.",
+      "category": "Geliştirici",
+      "winget": "OpenJS.NodeJS.LTS",
+      "ninite": "nodejs22",
+      "detect": ["Node.js"],
+      "size_mb": 90,
+      "tags": ["node", "javascript"]
+    },
+    {
+      "id": "jdk21",
+      "name": "OpenJDK 21",
+      "description": "Java geliştirme kiti.",
+      "category": "Geliştirici",
+      "winget": "Microsoft.OpenJDK.21",
+      "ninite": "jdk21",
+      "detect": ["Microsoft OpenJDK", "Java"],
+      "size_mb": 200,
+      "tags": ["java", "jdk"]
+    },
+    {
+      "id": "dotnet-sdk",
+      "name": ".NET SDK 8",
+      "description": ".NET uygulama geliştirme kiti.",
+      "category": "Geliştirici",
+      "winget": "Microsoft.DotNet.SDK.8",
+      "detect": [".NET SDK"],
+      "size_mb": 400,
+      "tags": ["dotnet", "csharp"]
+    },
+    {
+      "id": "vs-buildtools",
+      "name": "Visual Studio Build Tools",
+      "description": "C/C++ derleme araçları (MSVC).",
+      "category": "Geliştirici",
+      "winget": "Microsoft.VisualStudio.2022.BuildTools",
+      "detect": ["Visual Studio Build Tools"],
+      "size_mb": 2500,
+      "tags": ["c", "c++", "msvc", "derleyici"]
+    },
+    {
+      "id": "notepadpp",
+      "name": "Notepad++",
+      "description": "Gelişmiş metin editörü.",
+      "category": "Geliştirici",
+      "winget": "Notepad++.Notepad++",
+      "ninite": "notepadplusplus",
+      "detect": ["Notepad++"],
+      "size_mb": 10,
+      "tags": ["editör"]
+    },
+    {
+      "id": "sublime",
+      "name": "Sublime Text",
+      "description": "Hızlı metin editörü.",
+      "category": "Geliştirici",
+      "winget": "SublimeHQ.SublimeText.4",
+      "ninite": "sublimetext4",
+      "detect": ["Sublime Text"],
+      "size_mb": 20,
+      "tags": ["editör"]
+    },
+    {
+      "id": "putty",
+      "name": "PuTTY",
+      "description": "SSH istemcisi.",
+      "category": "Geliştirici",
+      "winget": "PuTTY.PuTTY",
+      "ninite": "putty",
+      "detect": ["PuTTY"],
+      "size_mb": 3,
+      "tags": ["ssh"]
+    },
+    {
+      "id": "winscp",
+      "name": "WinSCP",
+      "description": "SFTP/SCP istemcisi.",
+      "category": "Geliştirici",
+      "winget": "WinSCP.WinSCP",
+      "ninite": "winscp",
+      "detect": ["WinSCP"],
+      "size_mb": 15,
+      "tags": ["sftp"]
+    },
+    {
+      "id": "filezilla",
+      "name": "FileZilla",
+      "description": "FTP istemcisi.",
+      "category": "Geliştirici",
+      "winget": "TimKosse.FileZillaClient",
+      "ninite": "filezilla",
+      "detect": ["FileZilla"],
+      "size_mb": 25,
+      "tags": ["ftp"]
+    },
+    {
+      "id": "docker",
+      "name": "Docker Desktop",
+      "description": "Konteyner geliştirme platformu.",
+      "category": "Geliştirici",
+      "winget": "Docker.DockerDesktop",
+      "ninite": "docker",
+      "detect": ["Docker Desktop"],
+      "size_mb": 600,
+      "tags": ["docker", "konteyner"]
+    },
+    {
+      "id": "postman",
+      "name": "Postman",
+      "description": "API test aracı.",
+      "category": "Geliştirici",
+      "winget": "Postman.Postman",
+      "detect": ["Postman"],
+      "size_mb": 200,
+      "tags": ["api", "test"]
+    },
+    {
+      "id": "wireshark",
+      "name": "Wireshark",
+      "description": "Ağ protokol analizörü.",
+      "category": "Geliştirici",
+      "winget": "WiresharkFoundation.Wireshark",
+      "ninite": "wireshark",
+      "detect": ["Wireshark"],
+      "size_mb": 90,
+      "tags": ["ağ", "analiz"]
+    },
+
+    {
+      "id": "dotnet-runtime8",
+      "name": ".NET Desktop Runtime 8",
+      "description": "OFGB ve birçok uygulama için gerekli.",
+      "category": "Çalışma Zamanı",
+      "winget": "Microsoft.DotNet.DesktopRuntime.8",
+      "ninite": "dotnetdesktop8",
+      "detect": ["Microsoft Windows Desktop Runtime - 8", "Windows Desktop Runtime - 8"],
+      "size_mb": 55,
+      "tags": ["dotnet", "runtime"]
+    },
+    {
+      "id": "vcredist",
+      "name": "Visual C++ Redistributable 2015-2022",
+      "description": "C++ uygulamaları için çalışma zamanı.",
+      "category": "Çalışma Zamanı",
+      "winget": "Microsoft.VCRedist.2015+.x64",
+      "ninite": "vcredist",
+      "detect": ["Microsoft Visual C++ 2015-2022 Redistributable", "Visual C++ 2015-2022"],
+      "size_mb": 25,
+      "tags": ["vc++", "runtime"]
+    },
+    {
+      "id": "jre",
+      "name": "Java Runtime (JRE)",
+      "description": "Java uygulamaları için çalışma zamanı.",
+      "category": "Çalışma Zamanı",
+      "winget": "Oracle.JavaRuntimeEnvironment",
+      "ninite": "jre8",
+      "detect": ["Java 8 Update", "Java Runtime"],
+      "size_mb": 80,
+      "tags": ["java", "runtime"]
+    },
+    {
+      "id": "directx",
+      "name": "DirectX 9.0c",
+      "description": "Eski oyunlar için DirectX kitaplıkları.",
+      "category": "Çalışma Zamanı",
+      "direct": {
+        "url": "https://download.microsoft.com/download/8/4/a/84a35bf1-dafe-4e79-8b9b-c2e5b5d6e8b9/directx_Jun2010_redist.exe",
+        "args": "/Q /T:%TEMP%\\dx /C"
+      },
+      "detect": ["DirectX"],
+      "size_mb": 100,
+      "tags": ["directx", "oyun"]
+    },
+
+    {
+      "id": "vlc",
+      "name": "VLC Media Player",
+      "description": "Her formatı oynatan medya oynatıcı.",
+      "category": "Medya",
+      "winget": "VideoLAN.VLC",
+      "ninite": "vlc",
+      "detect": ["VLC media player"],
+      "size_mb": 45,
+      "tags": ["video", "oynatıcı"]
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "description": "Müzik akış servisi.",
+      "category": "Medya",
+      "winget": "Spotify.Spotify",
+      "ninite": "spotify",
+      "detect": ["Spotify"],
+      "size_mb": 120,
+      "tags": ["müzik"]
+    },
+    {
+      "id": "obs",
+      "name": "OBS Studio",
+      "description": "Ekran kaydı ve canlı yayın.",
+      "category": "Medya",
+      "winget": "OBSProject.OBSStudio",
+      "ninite": "obs",
+      "detect": ["OBS Studio"],
+      "size_mb": 200,
+      "tags": ["kayıt", "yayın"]
+    },
+    {
+      "id": "audacity",
+      "name": "Audacity",
+      "description": "Ses düzenleme programı.",
+      "category": "Medya",
+      "winget": "Audacity.Audacity",
+      "ninite": "audacity",
+      "detect": ["Audacity"],
+      "size_mb": 40,
+      "tags": ["ses"]
+    },
+    {
+      "id": "gimp",
+      "name": "GIMP",
+      "description": "Açık kaynak görsel düzenleyici.",
+      "category": "Medya",
+      "winget": "GIMP.GIMP",
+      "ninite": "gimp",
+      "detect": ["GIMP"],
+      "size_mb": 250,
+      "tags": ["görsel", "editör"]
+    },
+    {
+      "id": "krita",
+      "name": "Krita",
+      "description": "Dijital resim programı.",
+      "category": "Medya",
+      "winget": "KDE.Krita",
+      "ninite": "krita",
+      "detect": ["Krita"],
+      "size_mb": 300,
+      "tags": ["çizim"]
+    },
+    {
+      "id": "blender",
+      "name": "Blender",
+      "description": "3D modelleme ve animasyon.",
+      "category": "Medya",
+      "winget": "BlenderFoundation.Blender",
+      "ninite": "blender",
+      "detect": ["Blender"],
+      "size_mb": 400,
+      "tags": ["3d", "modelleme"]
+    },
+    {
+      "id": "handbrake",
+      "name": "HandBrake",
+      "description": "Video dönüştürücü.",
+      "category": "Medya",
+      "winget": "HandBrake.HandBrake",
+      "ninite": "handbrake",
+      "detect": ["HandBrake"],
+      "size_mb": 60,
+      "tags": ["video", "dönüştürme"]
+    },
+    {
+      "id": "klite",
+      "name": "K-Lite Codec Pack",
+      "description": "Video kodek paketi.",
+      "category": "Medya",
+      "winget": "CodecGuide.K-LiteCodecPack.Standard",
+      "ninite": "klitecodecs",
+      "detect": ["K-Lite Codec Pack"],
+      "size_mb": 60,
+      "tags": ["kodek"]
+    },
+
+    {
+      "id": "discord",
+      "name": "Discord",
+      "description": "Sesli ve yazılı sohbet.",
+      "category": "İletişim",
+      "winget": "Discord.Discord",
+      "ninite": "discord",
+      "detect": ["Discord"],
+      "size_mb": 120,
+      "tags": ["sohbet"]
+    },
+    {
+      "id": "telegram",
+      "name": "Telegram",
+      "description": "Hızlı mesajlaşma uygulaması.",
+      "category": "İletişim",
+      "winget": "Telegram.TelegramDesktop",
+      "ninite": "telegram",
+      "detect": ["Telegram Desktop", "Telegram"],
+      "size_mb": 80,
+      "tags": ["sohbet"]
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "description": "WhatsApp masaüstü.",
+      "category": "İletişim",
+      "winget": "WhatsApp.WhatsApp",
+      "ninite": "whatsapp",
+      "detect": ["WhatsApp"],
+      "size_mb": 150,
+      "tags": ["sohbet"]
+    },
+    {
+      "id": "zoom",
+      "name": "Zoom",
+      "description": "Görüntülü toplantı.",
+      "category": "İletişim",
+      "winget": "Zoom.Zoom",
+      "ninite": "zoom",
+      "detect": ["Zoom"],
+      "size_mb": 100,
+      "tags": ["toplantı"]
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "description": "Ekip iletişimi.",
+      "category": "İletişim",
+      "winget": "SlackTechnologies.Slack",
+      "ninite": "slack",
+      "detect": ["Slack"],
+      "size_mb": 200,
+      "tags": ["ekip"]
+    },
+    {
+      "id": "teams",
+      "name": "Microsoft Teams",
+      "description": "Kurumsal toplantı ve sohbet.",
+      "category": "İletişim",
+      "winget": "Microsoft.Teams",
+      "ninite": "teams",
+      "detect": ["Microsoft Teams"],
+      "size_mb": 200,
+      "tags": ["toplantı", "microsoft"]
+    },
+
+    {
+      "id": "libreoffice",
+      "name": "LibreOffice",
+      "description": "Ücretsiz ofis paketi.",
+      "category": "Ofis",
+      "winget": "TheDocumentFoundation.LibreOffice",
+      "ninite": "libreoffice",
+      "detect": ["LibreOffice"],
+      "size_mb": 350,
+      "tags": ["ofis"]
+    },
+    {
+      "id": "sumatrapdf",
+      "name": "SumatraPDF",
+      "description": "Hafif PDF okuyucu.",
+      "category": "Ofis",
+      "winget": "SumatraPDF.SumatraPDF",
+      "ninite": "sumatrapdf",
+      "detect": ["SumatraPDF"],
+      "size_mb": 15,
+      "tags": ["pdf"]
+    },
+    {
+      "id": "foxitreader",
+      "name": "Foxit Reader",
+      "description": "PDF okuyucu.",
+      "category": "Ofis",
+      "winget": "Foxit.FoxitReader",
+      "ninite": "foxitreader",
+      "detect": ["Foxit Reader", "Foxit PDF Reader"],
+      "size_mb": 200,
+      "tags": ["pdf"]
+    },
+    {
+      "id": "acrobat",
+      "name": "Adobe Acrobat Reader",
+      "description": "Adobe'nin PDF okuyucusu.",
+      "category": "Ofis",
+      "winget": "Adobe.Acrobat.Reader.64-bit",
+      "detect": ["Adobe Acrobat Reader"],
+      "size_mb": 250,
+      "tags": ["pdf", "adobe"]
+    },
+
+    {
+      "id": "7zip",
+      "name": "7-Zip",
+      "description": "Dosya sıkıştırma aracı.",
+      "category": "Arşivleme",
+      "winget": "7zip.7zip",
+      "ninite": "7zip",
+      "detect": ["7-Zip"],
+      "size_mb": 5,
+      "tags": ["arşiv", "zip"]
+    },
+    {
+      "id": "winrar",
+      "name": "WinRAR",
+      "description": "RAR arşiv yöneticisi.",
+      "category": "Arşivleme",
+      "winget": "RARLab.WinRAR",
+      "ninite": "winrar",
+      "detect": ["WinRAR"],
+      "size_mb": 8,
+      "notes": "Deneme sürümü; lisans gerekir.",
+      "tags": ["arşiv", "rar"]
+    },
+    {
+      "id": "peazip",
+      "name": "PeaZip",
+      "description": "Açık kaynak arşiv yöneticisi.",
+      "category": "Arşivleme",
+      "winget": "Giorgiotani.Peazip",
+      "ninite": "peazip",
+      "detect": ["PeaZip"],
+      "size_mb": 25,
+      "tags": ["arşiv"]
+    },
+    {
+      "id": "rufus",
+      "name": "Rufus",
+      "description": "Önyüklenebilir USB oluşturucu.",
+      "category": "Arşivleme",
+      "winget": "Rufus.Rufus",
+      "ninite": "rufus",
+      "detect": ["Rufus"],
+      "size_mb": 5,
+      "tags": ["usb", "iso"]
+    },
+
+    {
+      "id": "bitwarden",
+      "name": "Bitwarden",
+      "description": "Açık kaynak parola yöneticisi.",
+      "category": "Güvenlik",
+      "winget": "Bitwarden.Bitwarden",
+      "ninite": "bitwarden",
+      "detect": ["Bitwarden"],
+      "size_mb": 120,
+      "tags": ["parola"]
+    },
+    {
+      "id": "keepassxc",
+      "name": "KeePassXC",
+      "description": "Yerel parola kasası.",
+      "category": "Güvenlik",
+      "winget": "KeePassXCTeam.KeePassXC",
+      "ninite": "keepassxc",
+      "detect": ["KeePassXC"],
+      "size_mb": 40,
+      "tags": ["parola"]
+    },
+    {
+      "id": "malwarebytes",
+      "name": "Malwarebytes",
+      "description": "Kötü amaçlı yazılım tarayıcısı.",
+      "category": "Güvenlik",
+      "winget": "Malwarebytes.Malwarebytes",
+      "ninite": "malwarebytes",
+      "detect": ["Malwarebytes"],
+      "size_mb": 300,
+      "tags": ["antivirüs", "güvenlik"]
+    },
+    {
+      "id": "tailscale",
+      "name": "Tailscale",
+      "description": "WireGuard tabanlı mesh VPN.",
+      "category": "Güvenlik",
+      "winget": "Tailscale.Tailscale",
+      "ninite": "tailscale",
+      "detect": ["Tailscale"],
+      "size_mb": 50,
+      "tags": ["vpn"]
+    },
+    {
+      "id": "wireguard",
+      "name": "WireGuard",
+      "description": "Hızlı VPN tüneli.",
+      "category": "Güvenlik",
+      "winget": "WireGuard.WireGuard",
+      "ninite": "wireguard",
+      "detect": ["WireGuard"],
+      "size_mb": 15,
+      "tags": ["vpn"]
+    },
+
+    {
+      "id": "steam",
+      "name": "Steam",
+      "description": "Oyun mağazası.",
+      "category": "Oyun",
+      "winget": "Valve.Steam",
+      "ninite": "steam",
+      "detect": ["Steam"],
+      "size_mb": 350,
+      "tags": ["oyun"]
+    },
+    {
+      "id": "epic",
+      "name": "Epic Games Launcher",
+      "description": "Epic oyun mağazası.",
+      "category": "Oyun",
+      "winget": "EpicGames.EpicGamesLauncher",
+      "ninite": "epicgames",
+      "detect": ["Epic Games Launcher"],
+      "size_mb": 300,
+      "tags": ["oyun"]
+    },
+    {
+      "id": "eaapp",
+      "name": "EA App",
+      "description": "Electronic Arts oyun istemcisi.",
+      "category": "Oyun",
+      "winget": "ElectronicArts.EADesktop",
+      "ninite": "eaapp",
+      "detect": ["EA app", "Origin"],
+      "size_mb": 250,
+      "tags": ["oyun"]
+    },
+    {
+      "id": "qbittorrent",
+      "name": "qBittorrent",
+      "description": "Torrent istemcisi.",
+      "category": "Oyun",
+      "winget": "qBittorrent.qBittorrent",
+      "ninite": "qbittorrent",
+      "detect": ["qBittorrent"],
+      "size_mb": 30,
+      "tags": ["torrent"]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "__comment": "English overlay for cleanup_targets.json",
+  "targets": {
+    "user_temp": {
+      "name": "User temporary files",
+      "description": "Temporary files in %TEMP%. Some may be locked while apps run.",
+      "group": "Temporary Files"
+    },
+    "windows_temp": {
+      "name": "Windows temporary files",
+      "description": "Contents of C:\\Windows\\Temp.",
+      "group": "Temporary Files"
+    },
+    "prefetch": {
+      "name": "Prefetch cache",
+      "description": "Windows recreates it; frees space with no lasting performance impact.",
+      "group": "Temporary Files"
+    },
+    "thumbcache": {
+      "name": "Thumbnail cache",
+      "description": "File Explorer thumbnail databases.",
+      "group": "Temporary Files"
+    },
+    "crashdumps": {
+      "name": "Crash dumps",
+      "description": "Error dumps in the CrashDumps folder.",
+      "group": "Temporary Files"
+    },
+    "gpu_cache": {
+      "name": "GPU shader caches",
+      "description": "NVIDIA DXCache and AMD DxCache folders.",
+      "group": "Temporary Files"
+    },
+    "windows_update_cache": {
+      "name": "Windows Update download cache",
+      "description": "Contents of SoftwareDistribution\\Download. Services are stopped temporarily.",
+      "group": "Windows Update",
+      "warning": "Downloaded but not yet installed updates are deleted; they will be downloaded again."
+    },
+    "delivery_optimization": {
+      "name": "Delivery Optimization cache",
+      "description": "Update fragments shared with other computers.",
+      "group": "Windows Update"
+    },
+    "old_logs": {
+      "name": "Old setup and update logs",
+      "description": "CBS, DISM and Windows Update log files.",
+      "group": "Windows Update"
+    },
+    "recycle_bin": {
+      "name": "Recycle Bin",
+      "description": "Permanently empties deleted files.",
+      "group": "Recycle Bin",
+      "warning": "Files in the Recycle Bin cannot be recovered."
+    },
+    "windows_old": {
+      "name": "Windows.old (previous version)",
+      "description": "Previous Windows installation left after an upgrade. No rollback remains.",
+      "group": "System Components",
+      "warning": "You can no longer roll back to the previous Windows version. Usually frees 10-30 GB."
+    },
+    "dism_cleanup": {
+      "name": "WinSxS component cleanup (DISM)",
+      "description": "Removes unused Windows components. May take a long time.",
+      "group": "System Components",
+      "warning": "This can take 10-40 minutes. Updates can no longer be uninstalled."
+    }
+  }
+}

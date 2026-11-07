@@ -1,0 +1,275 @@
+{
+  "__comment": "English overlay for debloat_tweaks.json",
+  "tweaks": {
+    "telemetry": {
+      "title": "Telemetry and diagnostic data",
+      "description": "Turns off diagnostic data, activity history and app-launch tracking.",
+      "category": "Privacy"
+    },
+    "suggestions": {
+      "title": "Suggestions and ads",
+      "description": "Turns off suggestions, tips and ads across Windows.",
+      "category": "Privacy"
+    },
+    "bing": {
+      "title": "Bing and Copilot in Search",
+      "description": "Turns off web results in Windows Search.",
+      "category": "Privacy"
+    },
+    "location": {
+      "title": "Location services",
+      "description": "Turns off Windows location services and app location access.",
+      "category": "Privacy"
+    },
+    "findmydevice": {
+      "title": "Find My Device",
+      "description": "Stops sending location data to Microsoft.",
+      "category": "Privacy"
+    },
+    "activity_history": {
+      "title": "Activity history",
+      "description": "Turns off activity history and app-launch tracking.",
+      "category": "Privacy"
+    },
+    "copilot": {
+      "title": "Copilot",
+      "description": "Disables and uninstalls Microsoft Copilot.",
+      "category": "AI"
+    },
+    "recall": {
+      "title": "Windows Recall",
+      "description": "Turns off Recall, which records screen history.",
+      "category": "AI"
+    },
+    "clicktodo": {
+      "title": "Click to Do",
+      "description": "Turns off AI-powered text/image analysis.",
+      "category": "AI"
+    },
+    "ai_svc": {
+      "title": "AI service auto-start",
+      "description": "Prevents the WSAIFabricSvc service from starting automatically.",
+      "category": "AI"
+    },
+    "edge_ai": {
+      "title": "Edge AI features",
+      "description": "Turns off the AI sidebar and Copilot features in Edge.",
+      "category": "AI"
+    },
+    "edge_ads": {
+      "title": "Edge ads and MSN feed",
+      "description": "Turns off ads, suggestions and the news feed in Edge.",
+      "category": "AI"
+    },
+    "paint_ai": {
+      "title": "Paint AI",
+      "description": "Turns off image generation tools in Paint.",
+      "category": "AI"
+    },
+    "notepad_ai": {
+      "title": "Notepad AI",
+      "description": "Turns off writing suggestions in Notepad.",
+      "category": "AI"
+    },
+    "chrome_ai": {
+      "title": "Chrome AI",
+      "description": "Turns off Gemini and AI features in Chrome.",
+      "category": "AI"
+    },
+    "brave_bloat": {
+      "title": "Brave extras",
+      "description": "Turns off AI, crypto, news and VPN features in Brave.",
+      "category": "AI"
+    },
+    "dark_mode": {
+      "title": "Dark theme",
+      "description": "Enables dark theme for the system and apps.",
+      "category": "Appearance"
+    },
+    "transparency": {
+      "title": "Disable transparency effects",
+      "description": "Turns off transparency; speeds up older hardware.",
+      "category": "Appearance"
+    },
+    "animations": {
+      "title": "Disable animations",
+      "description": "Turns off UI animations for a snappier feel.",
+      "category": "Appearance"
+    },
+    "context_menu": {
+      "title": "Classic context menu",
+      "description": "Restores the Windows 10 style right-click menu.",
+      "category": "Appearance"
+    },
+    "mouse_accel": {
+      "title": "Disable mouse acceleration",
+      "description": "Makes mouse movement more consistent.",
+      "category": "Appearance"
+    },
+    "sticky_keys": {
+      "title": "Sticky Keys shortcut",
+      "description": "Turns off the dialog shown when pressing Shift 5 times.",
+      "category": "Appearance"
+    },
+    "file_ext": {
+      "title": "Show file extensions",
+      "description": "Shows extensions for known file types.",
+      "category": "File Explorer"
+    },
+    "hidden_files": {
+      "title": "Show hidden files",
+      "description": "Makes hidden files and folders visible.",
+      "category": "File Explorer"
+    },
+    "hide_gallery": {
+      "title": "Hide Gallery section",
+      "description": "Removes Gallery from the navigation pane.",
+      "category": "File Explorer"
+    },
+    "hide_home": {
+      "title": "Hide Home section",
+      "description": "Removes Home from the navigation pane.",
+      "category": "File Explorer"
+    },
+    "hide_onedrive": {
+      "title": "Hide OneDrive section",
+      "description": "Removes OneDrive from the navigation pane.",
+      "category": "File Explorer"
+    },
+    "explorer_thispc": {
+      "title": "Open to This PC",
+      "description": "File Explorer starts at 'This PC'.",
+      "category": "File Explorer"
+    },
+    "add_folders": {
+      "title": "Add folders to This PC",
+      "description": "Adds Desktop, Documents, Downloads and more.",
+      "category": "File Explorer"
+    },
+    "taskbar_left": {
+      "title": "Align taskbar to the left",
+      "description": "Left-aligns taskbar buttons.",
+      "category": "Taskbar"
+    },
+    "hide_taskview": {
+      "title": "Hide Task View button",
+      "description": "Removes the Task View button from the taskbar.",
+      "category": "Taskbar"
+    },
+    "hide_search": {
+      "title": "Hide search box",
+      "description": "Removes the search box from the taskbar.",
+      "category": "Taskbar"
+    },
+    "widgets": {
+      "title": "Disable widgets",
+      "description": "Turns off taskbar and lock screen widgets.",
+      "category": "Taskbar"
+    },
+    "end_task": {
+      "title": "'End task' in taskbar",
+      "description": "Adds end-task to the right-click menu.",
+      "category": "Taskbar"
+    },
+    "last_active_click": {
+      "title": "Switch to last active window",
+      "description": "Taskbar click switches to the last active window.",
+      "category": "Taskbar"
+    },
+    "disable_snap": {
+      "title": "Disable window snapping",
+      "description": "Turns off drag-to-edge snapping.",
+      "category": "Taskbar"
+    },
+    "start_recommended": {
+      "title": "Hide Start recommendations",
+      "description": "Turns off the recommended section in the Start menu.",
+      "category": "Start Menu"
+    },
+    "start_phone_link": {
+      "title": "Phone Link in Start",
+      "description": "Removes the phone integration from the Start menu.",
+      "category": "Start Menu"
+    },
+    "clear_start": {
+      "title": "Clear pinned apps",
+      "description": "Removes pinned apps from the Start menu.",
+      "category": "Start Menu"
+    },
+    "delivery_optimization": {
+      "title": "Delivery Optimization sharing",
+      "description": "Turns off sharing updates with other PCs.",
+      "category": "Windows Update"
+    },
+    "driver_updates": {
+      "title": "Disable driver updates",
+      "description": "Blocks driver updates via Windows Update.",
+      "category": "Windows Update"
+    },
+    "prevent_reboot": {
+      "title": "Block automatic restart",
+      "description": "Prevents automatic restart after updates while signed in.",
+      "category": "Windows Update"
+    },
+    "update_asap": {
+      "title": "Don't get updates first",
+      "description": "Stops getting new feature updates early.",
+      "category": "Windows Update"
+    },
+    "storage_sense": {
+      "title": "Disable Storage Sense",
+      "description": "Turns off automatic disk cleanup.",
+      "category": "Windows Update"
+    },
+    "fast_startup": {
+      "title": "Disable fast startup",
+      "description": "Ensures a full shutdown; fixes some issues.",
+      "category": "Windows Update"
+    },
+    "gamebar": {
+      "title": "Xbox Game Bar integration",
+      "description": "Turns off game bar integration and recording.",
+      "category": "Gaming"
+    },
+    "dvr": {
+      "title": "Game recording (DVR)",
+      "description": "Turns off background game recording.",
+      "category": "Gaming"
+    },
+    "notifications": {
+      "title": "Windows notifications",
+      "description": "Turns off system and app notifications.",
+      "category": "System"
+    },
+    "settings_home": {
+      "title": "Remove Settings home",
+      "description": "Hides the home page in the Settings app.",
+      "category": "System"
+    },
+    "settings_ads": {
+      "title": "Microsoft 365 ads in Settings",
+      "description": "Turns off Microsoft 365 ads on the Settings home page.",
+      "category": "System"
+    },
+    "store_suggestions": {
+      "title": "Store search suggestions",
+      "description": "Turns off Store app suggestions in search.",
+      "category": "System"
+    },
+    "bitlocker": {
+      "title": "BitLocker auto-encryption",
+      "description": "Prevents automatic device encryption.",
+      "category": "System"
+    },
+    "standby_net": {
+      "title": "Network during modern standby",
+      "description": "Turns off network in sleep mode; saves battery.",
+      "category": "System"
+    },
+    "wsl": {
+      "title": "Windows Subsystem for Linux (WSL)",
+      "description": "Enables the WSL feature.",
+      "category": "System"
+    }
+  }
+}

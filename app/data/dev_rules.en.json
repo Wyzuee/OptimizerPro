@@ -1,0 +1,45 @@
+{
+  "__comment": "English overlay for dev_rules.json",
+  "languages": {
+    "python": {
+      "title": "Python",
+      "description": "Scripting, data science and automation. VS Code + Python extension installed automatically.",
+      "notes": "pip and venv come with Python."
+    },
+    "cpp": {
+      "title": "C / C++",
+      "description": "MSVC compiler toolchain and C/C++ extensions.",
+      "notes": "Build Tools takes several GB."
+    },
+    "node": {
+      "title": "JavaScript / TypeScript",
+      "description": "Node.js LTS + web development extensions.",
+      "notes": "npm comes with Node.js."
+    },
+    "java": {
+      "title": "Java",
+      "description": "OpenJDK 21 + Java extension pack.",
+      "notes": "JAVA_HOME is set automatically (new terminal required)."
+    },
+    "dotnet": {
+      "title": "C# / .NET",
+      "description": ".NET SDK 8 + C# Dev Kit.",
+      "notes": "The 'dotnet' command is ready in a new terminal."
+    },
+    "web": {
+      "title": "Web (HTML/CSS)",
+      "description": "Live preview and HTML/CSS helpers.",
+      "notes": "VS Code and a browser are enough."
+    },
+    "git": {
+      "title": "Git / Version Control",
+      "description": "Git + GitHub Pull Requests extensions.",
+      "notes": ""
+    },
+    "data": {
+      "title": "Data Science",
+      "description": "Python + Jupyter extensions.",
+      "notes": "Packages like pandas/numpy must be installed separately."
+    }
+  }
+}

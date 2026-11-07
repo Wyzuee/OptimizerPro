@@ -1,0 +1,14 @@
+{
+  "downloaded": 42,
+  "missing": [
+    "edge (microsoftedge)",
+    "handbrake (handbrake)",
+    "slack (slack)",
+    "teams (microsoftteams)",
+    "sumatrapdf (sumatrapdfreader)",
+    "winrar (winrar)",
+    "peazip (peazip)",
+    "powertoys (microsoft)",
+    "everything (everything)"
+  ]
+}

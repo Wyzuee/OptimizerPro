@@ -1,0 +1,125 @@
+{
+  "version": "0.4",
+  "source": "OFGB (Oh Frick Go Back) v0.4 — xM4ddy/OFGB, MIT",
+  "note": "clean değeri, reklam/öneri kapalıyken anahtarın alması gereken değerdir.",
+  "toggles": [
+    {
+      "id": "sync_provider",
+      "title": "Dosya Gezgini senkron bildirimleri",
+      "description": "OneDrive gibi sağlayıcıların Dosya Gezgini'ndeki tanıtım bildirimlerini kapatır.",
+      "category": "Dosya Gezgini",
+      "keys": [
+        {"path": "HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced", "name": "ShowSyncProviderNotifications", "clean": 0}
+      ]
+    },
+    {
+      "id": "lockscreen_tips",
+      "title": "Kilit ekranı ipuçları ve fun facts",
+      "description": "Kilit ekranında görünen öneriler, ipuçları ve tanıtımları kapatır.",
+      "category": "Kilit Ekranı",
+      "keys": [
+        {"path": "HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager", "name": "RotatingLockScreenOverlayEnabled", "clean": 0},
+        {"path": "HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager", "name": "SubscribedContent-338387Enabled", "clean": 0}
+      ]
+    },
+    {
+      "id": "settings_suggestions",
+      "title": "Ayarlar uygulamasında önerilen içerik",
+      "description": "Ayarlar ana sayfasında çıkan öneri kartlarını kapatır.",
+      "category": "Ayarlar",
+      "min_build": 22000,
+      "keys": [
+        {"path": "HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager", "name": "SubscribedContent-338393Enabled", "clean": 0},
+        {"path": "HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager", "name": "SubscribedContent-353694Enabled", "clean": 0},
+        {"path": "HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager", "name": "SubscribedContent-353696Enabled", "clean": 0}
+      ]
+    },
+    {
+      "id": "windows_tips",
+      "title": "Windows kullanım ipuçları",
+      "description": "Kullanım sırasında çıkan öneri ve ipuçlarını kapatır.",
+      "category": "Genel",
+      "keys": [
+        {"path": "HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager", "name": "SubscribedContent-338389Enabled", "clean": 0}
+      ]
+    },
+    {
+      "id": "scoobe",
+      "title": "Kurulum tamamlama önerileri",
+      "description": "'Cihazınızdan en iyi şekilde yararlanın' önerilerini kapatır.",
+      "category": "Genel",
+      "keys": [
+        {"path": "HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\UserProfileEngagement", "name": "ScoobeSystemSettingEnabled", "clean": 0}
+      ]
+    },
+    {
+      "id": "welcome_experience",
+      "title": "Güncelleme sonrası karşılama deneyimi",
+      "description": "Güncellemelerden sonra açılan 'yenilikler' ekranını kapatır.",
+      "category": "Genel",
+      "keys": [
+        {"path": "HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager", "name": "SubscribedContent-310093Enabled", "clean": 0}
+      ]
+    },
+    {
+      "id": "advertising_id",
+      "title": "Reklam kimliği",
+      "description": "Uygulamaların kişiselleştirilmiş reklam için reklam kimliğinizi kullanmasını engeller.",
+      "category": "Gizlilik",
+      "keys": [
+        {"path": "HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\AdvertisingInfo", "name": "Enabled", "clean": 0}
+      ]
+    },
+    {
+      "id": "tailored_experiences",
+      "title": "Kişiselleştirilmiş deneyimler",
+      "description": "Tanılama verisine dayalı kişiselleştirilmiş önerileri kapatır.",
+      "category": "Gizlilik",
+      "keys": [
+        {"path": "HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Privacy", "name": "TailoredExperiencesWithDiagnosticDataEnabled", "clean": 0}
+      ]
+    },
+    {
+      "id": "start_recommendations",
+      "title": "Başlat menüsü önerileri",
+      "description": "Başlat menüsündeki 'önerilen' uygulama ve ipucu kartlarını kapatır.",
+      "category": "Başlat Menüsü",
+      "min_build": 22000,
+      "keys": [
+        {"path": "HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced", "name": "Start_IrisRecommendations", "clean": 0}
+      ]
+    },
+    {
+      "id": "smart_optout",
+      "title": "Kullanılmayan uygulama bildirimleri",
+      "description": "'Bu uygulamaları uzun süredir açmadınız' tarzı öneri bildirimlerini kapatır.",
+      "category": "Bildirimler",
+      "min_build": 22000,
+      "keys": [
+        {"path": "HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Notifications\\Settings\\Windows.ActionCenter.SmartOptOut", "name": "Enabled", "clean": 0}
+      ]
+    },
+    {
+      "id": "bing_search",
+      "title": "Aramada Bing sonuçları",
+      "description": "Windows aramasında web/Bing sonuçlarını kapatır (politika anahtarı).",
+      "category": "Arama",
+      "requires_admin": true,
+      "keys": [
+        {"path": "HKCU\\Software\\Policies\\Microsoft\\Windows\\Explorer", "name": "DisableSearchBoxSuggestions", "clean": 1},
+        {"path": "HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Search", "name": "BingSearchEnabled", "clean": 0}
+      ]
+    },
+    {
+      "id": "edge_widget",
+      "title": "Edge masaüstü arama çubuğu",
+      "description": "Edge'in masaüstünde açtığı arama widget'ını kapatır (politika anahtarı).",
+      "category": "Edge",
+      "requires_admin": true,
+      "min_build": 22000,
+      "keys": [
+        {"path": "HKCU\\Software\\Policies\\Microsoft\\Edge", "name": "WebWidgetAllowed", "clean": 0}
+      ]
+    }
+  ]
+}
