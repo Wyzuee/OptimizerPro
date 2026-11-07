@@ -65,7 +65,7 @@ turns off Windows ads, bulk-installs programs and scans for driver/Windows updat
 ### End users
 
 1. Open the [**Download Optimizer Pro**](https://github.com/Wyzuee/OptimizerPro/releases/tag/Release_1.0.0_OptimizerPro) page.
-2. Download `Optimizer Pro.exe`.
+2. Download `OptimizerPro.exe`.
 3. Double-click it — Windows will ask for administrator rights (required for cleanup and installation).
 4. Follow the wizard. You can skip any step.
 

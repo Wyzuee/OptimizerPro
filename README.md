@@ -66,7 +66,7 @@ sürücü ve güncellemeleri tarar.
 ### Son kullanıcı
 
 1. [**Optimizer Pro'yu indir**](https://github.com/Wyzuee/OptimizerPro/releases/tag/Release_1.0.0_OptimizerPro) sayfasına gidin.
-2. `Optimizer Pro.exe` dosyasını indirin.
+2. `OptimizerPro.exe` dosyasını indirin.
 3. Çift tıklayın — Windows yönetici izni ister (temizlik ve kurulum için gereklidir).
 4. Sihirbazı takip edin. Her adımı atlayabilirsiniz.
 
